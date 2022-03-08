@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: hasher
 spec:
-  port:
-    - ports: 8081
+  ports:
+    - port: 8081
       protocol: TCP
       targetPort: 8081
   selector:
