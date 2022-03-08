@@ -4,7 +4,7 @@ metadata:
   name: hasher
 spec:
   port:
-    - port: 8081
+    - ports: 8081
       protocol: TCP
       targetPort: 8081
   selector:
